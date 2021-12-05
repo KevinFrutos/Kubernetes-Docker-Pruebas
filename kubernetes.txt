@@ -8,6 +8,9 @@ kubectl get po -A
 # MUESTRA EL ESTADO ACTUALIZADO DEL LOS PODS
 kubectl get pods --watch
 
+# EJECUTAR UNA TERMINAL DENTRO DE UN POD
+kubectl exec -it nombre-pod -- sh
+
 # MUESTRA LOS SERVICIOS DISPONIBLES(DNS)
 kubectl get svc
 

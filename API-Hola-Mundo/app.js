@@ -1,5 +1,8 @@
-const express = require('express')
-require('dotenv').config()
+import express from "express"
+import fetch from "node-fetch"
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const app = express()
 
